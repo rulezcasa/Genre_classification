@@ -36,12 +36,12 @@ The model is trained using certain audio features extracted by the librosa libra
 4. Tonal centroid features provide a time-varying representation of the harmonic content of the audio signal, which is valuable for various music analysis tasks.
 
 ## Workflow followed:
-1.Importing necessary packages
-2.Feature exraction and creation of dataset
-3.Train - test split
-4.Feature scaling
-5.Model building
-6.Evaluation metrics
-7.Random value prediction
-8.Saving the model
+1. Importing necessary packages
+2. Feature exraction and creation of dataset
+3. Train - test split
+4. Feature scaling
+5. Model building
+6. Evaluation metrics
+7. Random value prediction
+8. Saving the model
 
