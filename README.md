@@ -26,6 +26,8 @@ The project uses the following python packages and dependencies for its successf
 ## Dataset:
 GTZAN Genre Collection: https://www.kaggle.com/datasets/carlthome/gtzan-genre-collection
 
+The dataset contains contains directories for 10 different genres having 10 audio files each.
+
 ## Feature extraction from audio files using librosa: 
 The model is trained using certain audio features extracted by the librosa library:
 1. Mel frequency capstral coefficients -> MFCCs are a set of coefficients that represent the short-term power spectrum of a sound signal. They are widely used in audio signal processing and speech and music analysis. MFCCs capture essential spectral characteristics of audio signals by mimicking the human auditory system's sensitivity to different frequencies.
