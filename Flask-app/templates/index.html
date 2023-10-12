@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/main.css') }}"> 
+</head>
+<body>
+    <h1> Music Genre Predictor</h1>
+    <br>
+    <br>
+    <form action="/predict" method="POST" enctype="multipart/form-data">
+    <input class="drop-container" type="file" accept="audio/*" name="audio">
+    <br>
+    <br>
+    <input type="submit" value="Predict" class="drop-container-submit">
+    </form>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <span class="prediction">
+    <h2>{{prediction_text}}</h2>
+    </span>
+</body>
+</html>
