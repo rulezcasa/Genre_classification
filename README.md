@@ -26,7 +26,7 @@ The project uses the following python packages and dependencies for its successf
 ## Dataset:
 GTZAN Genre Collection: https://www.kaggle.com/datasets/carlthome/gtzan-genre-collection
 
-The dataset contains contains directories for 10 different genres having 10 audio files each.
+The dataset contains contains directories for 10 different genres having 100 audio files each.
 
 ## Feature extraction from audio files using librosa: 
 The model is trained using certain audio features extracted by the librosa library:
