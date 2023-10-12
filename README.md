@@ -73,4 +73,6 @@ Output render :
 9. Building a flask application
 10. Deployment of model
 
+#### Future prospects include a song recommendation system for the user.
+
 
